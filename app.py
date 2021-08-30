@@ -23,3 +23,6 @@ def get_ifconfig():
   except:
     output = "Unable to process"
   return "<PRE>{}</PRE>".format(output)
+
+if __name__ == "__main__":
+  app.run(port=5000)
